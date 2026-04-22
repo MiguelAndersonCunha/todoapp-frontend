@@ -16,7 +16,7 @@ export class App {
   apiURL : string; 
 
   constructor(private http: HttpClient) {
-    this.apiURL = 'http://localhost:3000';
+    this.apiURL = 'https://todoapp-backend-jzki.onrender.com/';
     this.READ_tarefas();
   }
 
